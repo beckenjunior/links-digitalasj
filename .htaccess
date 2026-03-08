@@ -1,5 +1,7 @@
+# Garantir que o servidor use o index.html e ignore o WordPress
 DirectoryIndex index.html
+Options +FollowSymLinks -MultiViews
 
 <IfModule mod_rewrite.c>
-RewriteEngine Off
+    RewriteEngine Off
 </IfModule>
