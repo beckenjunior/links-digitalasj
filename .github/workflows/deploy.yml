@@ -21,4 +21,3 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /
-        # Como o diretório FTP no servidor já aponta para public_html/links, usamos / aqui.
